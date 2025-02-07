@@ -73,8 +73,8 @@ function createHeartRain() {
 // Page Content
 document.addEventListener("DOMContentLoaded", () => {
   const urlParams = new URLSearchParams(window.location.search);
-  const fromName = urlParams.get("from") || "Induranga";
-  const toName = urlParams.get("to") || "Thisuri";
+  const fromName = urlParams.get("from") || "Darshitha";
+  const toName = urlParams.get("to") || "Sandali";
 
   document.title = `${fromName} ❤️ ${toName} | Valentine's Day`;
 
